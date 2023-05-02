@@ -1,0 +1,553 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": [
+                "Asalamu alaikum",
+                "salam"
+            ],
+            "responses": [
+                "Walaikum usalam"
+            ]
+        },
+        {
+            "tag": "greetings",
+            "patterns": [
+                "How are you?", 
+                "whats up",
+                "Hi", 
+                "How are you", 
+                "Is anyone there?", 
+                "Hello", 
+                "Good day", 
+                "Hey"
+            ],
+            "responses": [
+                "I am doing good",
+                "Hello, thanks for asking. How can I help you?", 
+                "Hi there, how can I assist you today?", 
+                "Hi, how may I assist you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Allah hafiz",
+                "khuda hafiz",
+                "i am going",
+                "talk to you later",
+                "Bye", "See you later", 
+                "Goodbye", 
+                "Nice chatting to you, bye", 
+                "Till next time"
+            ],
+            "responses": [
+                "Allah hafiz",
+                "khuda hafiz",
+                "See you later, thanks for visiting.",
+                 "Have a great day!", 
+                 "Goodbye!"
+            ]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping"],
+         "responses": [
+                "Happy to help!", 
+                "Anytime!", 
+                 "My pleasure"]
+        },
+        {"tag": "options",
+         "patterns": ["What can you do?", 
+         "How can you help me?", 
+         "What are your features?", 
+         "What services do you offer?"],
+         "responses": ["I can help you with questions about admissions, programs offered, deadlines, and other general information about our university. Just ask me anything!"]
+         
+        },
+        {
+            "tag": "campus_life",
+            "patterns": [
+              "What is campus life like?",
+              "How is campus life?",
+              "Can you tell me about campus life?"
+            ],
+            "responses": [
+              "Campus life can vary depending on the university, but generally there are many activities and opportunities available for students to get involved. This may include student clubs and organizations, sports and fitness programs, cultural events, and more."
+            ]
+          },
+          {
+            "tag": "student_housing_options",
+            "patterns": [
+              "What are the student housing options?",
+              "Can you tell me about student housing?",
+              "Where can I live on campus?"
+            ],
+            "responses": [
+              "Student housing options can vary depending on the university, but typically there are options such as residence halls, apartments, and off-campus housing. The university may also offer specific housing options for certain groups of students, such as international students or honors students."
+            ]
+          },
+          {
+            "tag": "student_organizations",
+            "patterns": [
+              "What kind of student organizations are available?",
+              "Are there any student clubs?",
+              "Can you tell me more about student organizations?"
+            ],
+            "responses": [
+              "There are usually a wide variety of student organizations available, ranging from academic and professional groups to cultural and recreational clubs. These organizations can provide students with opportunities to develop leadership skills, connect with other students who share their interests, and engage in service and outreach projects."
+            ]
+          },
+          {
+            "tag": "upcoming_events",
+            "patterns": [
+              "What events are coming up on campus?",
+              "Are there any upcoming events?",
+              "Can you tell me about campus events?"
+            ],
+            "responses": [
+              "Campus events can vary throughout the year, but may include concerts, guest lectures, film screenings, festivals, and more. Many universities have a calendar of events available on their website or through a campus LMS."
+            ]
+          },
+          {
+            "tag": "recreational_facilities",
+            "patterns": [
+              "What are the recreational facilities on campus?",
+              "Can you tell me about fitness facilities?",
+              "What kind of sports facilities are available?"
+            ],
+            "responses": [
+              "Recreational facilities on campus may include fitness centers, sports fields and courts, and outdoor recreation areas. These facilities may be available to all students, or there may be membership or usage fees associated with certain activities."
+            ]
+          },
+          {
+            "tag": "disability_services",
+            "patterns": [
+              "What kind of services are available for students with disabilities?",
+              "Are there resources for disabled students?",
+              "Can you tell me about disability services?"
+            ],
+            "responses": [
+              "Universities typically have resources available to support students with disabilities, including accommodations for academic and living situations. Services may include assistive technology, accessible transportation, and support for navigating campus and other aspects of college life."
+            ]
+          },
+          {
+            "tag": "health_services",
+            "patterns": [
+              "Can you tell me more about the health services on campus?",
+              "What kind of health services are available?",
+              "Are there counseling services available?"
+            ],
+            "responses": [
+              "Health services on campus may include a student health center, counseling services, and wellness programs. These services may be available to all students, or there may be fees associated with certain services."
+            ]
+          },
+          {
+            "tag":"security",
+            "patterns":[
+                "What is the campus security protocol?"
+            ],
+            "responses":[
+                "Campus security is an important aspect of student safety. Universities typically have a campus police or security force that patrols the campus and responds to emergencies. They may also offer resources such as safety escorts, emergency preparedness plans, and crime prevention programs."
+            ]
+          },
+          {
+            "tag": "apply",
+            "patterns": [
+              "How do I apply to this university?",
+              "Can you guide me through the steps of applying to this university?",
+              "How do I apply to this university?",
+              "Can you guide me through the steps of applying to this university?", 
+              "Where can I find the application form for this university?",
+              "How are admissions decisions made for this university?",
+              "Admissions decisions for this university are typically based on a variety of factors, including academic performance, test scores, letters of recommendation, essays or personal statements, and other relevant factors."
+            ],
+            "responses": [
+              "To apply to our university, you can visit our website and follow the instructions provided in the Admissions section.",
+              "The steps to apply to our university include filling out an application form, submitting required documents, and paying the application fee.",
+              "To apply to our university, you can visit our website and follow the instructions provided in the Admissions section.", 
+              "The steps to apply to our university include filling out an application form, submitting required documents, and paying the application fee.", 
+              "You can find the application form for our university on our website in the Admissions section."
+            ]
+          },
+          {
+            "tag": "application_form",
+            "patterns": [
+              "Where can I find the application form for this university?",
+              "Is there an online application for this university?"
+            ],
+            "responses": [
+              "You can find the application form for our university on our website in the Admissions section.",
+              "Yes, there is an online application available on our university's website."
+            ]
+          },
+          {
+            "tag": "application_requirements",
+            "patterns": [
+              "What are the requirements for submitting an application to this university?",
+              "Can you tell me more about the documents I need to submit for my application?",
+              "What are the requirements for submitting an application to this university?", 
+              "Can you tell me more about the documents I need to submit for my application?", 
+              "What are the requirements that must be fulfilled in order to be eligible to apply to this university?",
+              "What are the requirements for admission?",
+              "What is needed to be eligible for admission?",
+              "What are the admission criteria for the university?",
+              "What are the requirements for admission to this university?",
+              "What are the requirements for admission?",
+              "What are the admission requirements for graduate programs?"
+            ],
+            "responses": [
+              "The requirements for submitting an application to our university include completing the application form, providing transcripts from all previous institutions attended, submitting standardized test scores, providing letters of recommendation, and paying the application fee.",
+              "The documents you need to submit for your application include transcripts from all previous institutions attended, standardized test scores, and letters of recommendation.", 
+              "The documents you need to submit for your application include transcripts from all previous institutions attended, standardized test scores, and letters of recommendation.", 
+              "To be eligible to apply to our university, you need to fulfill certain requirements such as: High school diploma or equivalent qualification. A minimum GPA score as specified by the university.",
+              "The requirements for admission to a university vary based on the program you are applying to. Generally, universities require students to have a high school diploma or equivalent, minimum GPA, and test scores. Some programs may also require letters of recommendation, essays, or interviews.",
+              "The requirements for admission vary by program and university, but typically include a high school diploma or equivalent, minimum GPA, and test scores.",
+              "The requirements for admission to a university vary based on the program you are applying to. Generally, universities require students to have a high school diploma or equivalent, minimum GPA, and test scores. Some programs may also require letters of recommendation, essays, or interviews.",
+              "The admission requirements for graduate programs may vary depending on the program and campus, but typically include academic transcripts, test scores, letters of recommendation, and other relevant documents."
+            ]
+          },
+          {
+            "tag": "application_deadline",
+            "patterns": [
+              "What is the deadline for submitting an application to this university?",
+              "When is the deadline for applications?"
+            ],
+            "responses": [
+              "The deadline for submitting an application to our university varies by program. Please check our website for specific program deadlines.",
+              "The deadline for applications varies by university and program. It is important to check the university's website or contact the admissions office to confirm the deadline for the program you are interested in."
+            ]
+          },
+          {
+            "tag": "fees",
+            "patterns": ["Do I need to pay an application fee to apply to this university?", 
+            "How much does it cost to apply to this university, and what fees are involved?"],
+            "responses": ["Yes, there is an application fee to apply to our university. The amount varies by program.", 
+            "The application fee for our university varies depending on the program and the intake. Please check our university's website or admission portal for the exact fees and payment methods."]
+          },
+          {
+            "tag": "process",
+            "patterns": [
+                "Can you provide me with more information on the application review process for this university?", 
+            "What are the administrative steps that need to be followed in order to apply to this university?", 
+            "Can you walk me through the process of applying to this university?",
+            "Can you tell me more about the admissions process?",
+            "What is the process for applying to this university?", 
+            "How do I apply for admission to this university?",
+            "Can you tell me more about the admissions process?"
+            
+
+        ],
+            "responses": ["The application review process for our university typically involves a review of the application, transcripts, test scores, and letters of recommendation by the admissions committee. The committee will consider various factors, including academic performance, test scores, and extracurricular activities, in making their decision.", 
+            "The administrative steps to apply to our university are Create an online account on our university's admission portal. Fill in the application form with accurate and up-to-date information. Upload all the necessary documents as per the university's requirements. Pay the application fee. Submit the application form and wait for the confirmation.", 
+            "Sure, I'd be happy to walk you through the application process step-by-step. Please let me know if you have any specific questions.",
+            "The admissions process typically involves submitting an application, test scores, transcripts, and any other required documents. The university will review the application and make a decision based on the applicant's qualifications, including GPA, test scores, extracurricular activities, and any additional requirements specific to the program.",
+            "The process for applying to a university usually involves researching the programs offered, reviewing the admission requirements, completing the application, submitting required documents, and paying any associated fees."     
+        ]
+          },
+          {
+            "tag": "documents",
+            "patterns": [
+            "What documents do I need to submit as part of my application?",
+            "Which documents are required for the application process?",
+            "What are the required documents for the application?",
+            "What documents do I need to submit as part of my application to this university?",
+            "What are the required admissions documents?",
+            "What papers do I need for the admissions process?",
+            "Which documents are required for admission?",
+            "What documents do I need to submit for the admissions process?",
+            "What paperwork is necessary for admission to this university?"
+            ],
+            "responses": [
+            "The documents you need to submit as part of your application to our university typically include your high school transcripts, test scores, letters of recommendation, and a personal statement. Please check our university's website or admission portal for the specific documents required for your program.",
+            "The documents required for the admissions process typically include official transcripts, test scores, letters of recommendation, and any additional requirements specific to the program."
+            ]
+           },
+            {
+                "tag": "criteria",
+                "patterns": [
+                "What are the criteria for evaluating applications?",
+                "How does the university evaluate applications?",
+                "What factors are considered for the admission process?",
+                "What are the criteria that are used to evaluate applications for this university?",
+                "What are the admission criteria for international students?"
+                ],
+                "responses": [
+                "The criteria used to evaluate applications for our university vary depending on the program and the intake. Generally, we consider factors such as academic achievements, test scores, extracurricular activities, and personal qualities.",
+                "We evaluate applications based on factors such as academic achievements, test scores, extracurricular activities, and personal qualities. The criteria used to evaluate applications may vary depending on the program and the intake.",
+                "The admission criteria for international students may vary depending on the program and campus, but typically include proof of English proficiency, academic records, and other relevant documents"
+                ]
+            },
+            {
+                "tag": "timeline",
+                "patterns": [
+                "How long does the application process take?",
+                "What is the timeline for the admission process?",
+                "When can I expect to receive a decision after applying?"
+                ],
+                "responses": [
+                "The application process timeline for our university depends on the program and the intake. Generally, the process takes around 4-8 weeks from the application deadline to receive a decision."
+                ]
+            },
+            {
+                "tag": "resources",
+                "patterns": [
+                "What resources or support are available for applicants?",
+                "Does the university provide any resources for the application process?",
+                "What kind of support is available for applicants during the admission process?"
+                ],
+                "responses": [
+                "Our university provides various resources and support to applicants during the application process such as admission counseling, application workshops, and information sessions. Please check our university's website or admission portal for the specific resources available for your program."
+                ]
+                },
+                {
+                "tag": "after-application",
+                "patterns": [
+                "What happens after I submit my application?",
+                "How is my application reviewed?",
+                "When will I receive a decision after submitting my application?"
+                ],
+                "responses": [
+                "After you submit your application to our university, it goes through a review process by the admissions committee. The review process may take a few weeks, and you will be notified of the decision by email or through the admission portal. The exact timeline varies depending on the program and the intake."
+                ]
+                },
+                {
+                "tag": "application_process_time", 
+                "patterns": [
+                    "How long does the application process take, from start to finish, for this university?"
+                ], 
+                "responses": [
+                    "The application process timeline for our university depends on the program and the intake. Generally, the process takes around 4-8 weeks from the application deadline to receive a decision."
+                ]
+            },
+            {
+                "tag": "application_support", 
+                "patterns": [
+                    "What resources or support are available to applicants during the application process for this university?"
+                    ], 
+                "responses": [
+                    "We provide various resources and support to applicants during the application process such as admission counseling, application workshops, and information sessions. Please check our university's website or admission portal for the specific resources available for your program."
+                    ]
+            },
+            {
+                "tag": "after_application_submission", 
+                "patterns": [
+                    "What happens after I submit my application to this university, and when can I expect to receive a decision?"], 
+                    "responses": [
+                        "After you submit your application to our university, it goes through a review process by the admissions committee. The review process may take a few weeks, and you will be notified of the decision by email or through the admission portal. The exact timeline varies depending on the program and the intake."
+            ]
+        },
+        {
+            "tag": "minimum_test_scores", 
+            "patterns": [
+                "What are the minimum test scores required for admission to this university?"
+            ], 
+                "responses": [
+                    "The minimum test scores required for admission to a university vary based on the program you are applying to."
+            ]
+        },
+        {
+            "tag": "minimum_gpa",
+            "patterns": [
+            "What is the minimum GPA required for admission?",
+            "What is the minimum percentage required for admission?",
+            "What GPA is needed to get into this university?",
+            "What is the minimum GPA required for admission?",
+            "Is there a minimum GPA requirement for admission to this university?",
+            "What GPA do I need to be admitted to this university?"
+
+            ],
+            "responses": [
+            "The minimum GPA required for admission to a university varies based on the program you are applying to. Generally, universities require students to have a minimum 55% or above."
+            ]
+            },
+        {
+            "tag": "letters_of_recommendation",
+            "patterns": [
+                "Are letters of recommendation required for admission?",
+                "Do I need to submit letters of recommendation for admission?",
+                "How many letters of recommendation are required for admission?",
+                "Who should write the letters of recommendation for admission?",
+                "Are letters of recommendation required?",
+                "How many letters of recommendation do I need?",
+                "Who should write my letters of recommendation?"
+                ],
+            "responses": [
+                "Letters of recommendation may be required for admission to some programs at universities. The number of letters required and who should write them may vary based on the program and university."
+                ]
+        },
+        {
+            "tag": "acceptance_rate",
+            "patterns": [
+            "What is the acceptance rate for this university?",
+            "How difficult is it to get accepted into this university?",
+            "Is the acceptance rate for this university high or low?",
+            "What percentage of applicants are accepted into this university?",
+            "How competitive is the admissions process for this university?",
+            "What are my chances of being accepted to this university?"
+            ],
+            "responses": [
+            "The acceptance rate for university varies based on the university and program. Some programs may have a very competitive admissions process, while others may be more accessible."
+            
+            ]
+        },
+        {
+            "tag": "essay_requirements",
+            "patterns": [
+            "Are there any essay or personal statement requirements?",
+            "Do I need to write an essay for admission?",
+            "What kind of essays do I need to submit for the admissions process?"
+            ],
+            "responses": [
+            "Some programs may require essays or personal statements as part of the admissions process. These essays may be used to evaluate the applicant's writing skills, critical thinking abilities, and overall fit for the program."
+            ]
+            },
+            {
+                "tag": "financial_aid",
+                "patterns": [
+                "How does the financial aid process work?",
+                "What kind of financial aid is available?",
+                "Can you explain the process for applying for financial aid?"
+                ],
+                "responses": [
+                "The financial aid process for universities typically involves completing the Free Application for Federal Student Aid (FAFSA) and applying for any available scholarships or grants. The university may also offer loans or work-study programs to help cover the cost of tuition."
+                ]
+                },
+                {
+                "tag": "scholarships",
+                "patterns": [
+                "Are there any scholarships available for students applying to this university?",
+                "What kind of scholarships does this university offer?",
+                "Can you tell me more about available scholarships?"
+                ],
+                "responses": [
+                "The university offers scholarships specifically for students applying to the institution. These scholarships may be based on academic achievement, financial need, or other criteria. It is important to research available scholarships and apply for any that you are eligible for."
+                ]
+        },
+        {
+            "tag": "TransferCreditPolicies",
+            "patterns": [
+              "What is the transfer credit policy for this university?",
+              "Can you explain the transfer credit policies for admitted students?",
+              "How does this university evaluate transfer credits?",
+              "Which courses can be transferred for credit?",
+              "Are there any restrictions on transferring credits?",
+              "What is the maximum number of transfer credits allowed?",
+              "How long does it take to process transfer credits?",
+              "What is the minimum grade required for transfer credits?",
+              "How do I transfer to this university?",
+              "Can you tell me more about the transfer application process?",
+              "What is required to apply to this university as a transfer student?",
+              "What happens after I submit my transfer application to this university?"
+            ],
+            "responses": [
+              "Transfer credit policies for students admitted to this university may vary depending on the program and campus. Generally, the university will evaluate previous college coursework to determine which courses may be transferred for credit.",
+              "The university evaluates transfer credits on a case-by-case basis, taking into account the academic rigor and relevance of the previous coursework.",
+              "Courses that are equivalent to those offered at this university and have been completed with a satisfactory grade are usually eligible for transfer credit.",
+              "However, there may be some restrictions on transferring credits, such as time limits, credit limits, or residency requirements.",
+              "The maximum number of transfer credits allowed may also vary depending on the program and degree requirements.",
+              "It typically takes a few weeks to several months to process transfer credits, depending on the volume and complexity of the coursework.",
+              "In general, a minimum grade of C or higher is required for transfer credits to be eligible.",
+              "To transfer to this university, you will typically need to meet the admission requirements for transfer students and submit a transfer application.",
+              "The transfer application process typically involves submitting transcripts, test scores, letters of recommendation, and other relevant documents.",
+              "After submitting your transfer application, the university's admissions office will review your application and supporting materials to make an admission decision. You may be notified of the decision by email or mail, and you can follow up with the admissions office for more information on next steps."
+            ]
+          },
+          {
+            "tag": "OrientationProgram",
+            "patterns": [
+              "Is there an orientation program for new students?",
+              "When is the orientation program held?",
+              "What does the orientation program include?",
+              "Do I need to attend the orientation program?",
+              "Can I bring my family to the orientation program?",
+              "Is there a virtual orientation program available?",
+              "How long does the orientation program last?"
+            ],
+            "responses": [
+              "Yes, this university typically offers an orientation program for new students to help them adjust to campus life and get to know the resources and services available.",
+              "The orientation program is usually held before the start of the academic term, and the dates may vary depending on the program and campus.",
+              "The orientation program may include campus tours, academic advising, course registration, social events, and other activities designed to help students acclimate to their new environment.",
+              "While attendance at the orientation program is not mandatory, it is highly recommended for new students to attend to get a head start on their academic and social lives at the university.",
+              "Family members are typically welcome to attend the orientation program, but there may be additional fees or restrictions depending on the program and campus.",
+              "In some cases, a virtual orientation program may be available for students who are unable to attend the on-campus program.",
+              "The length of the orientation program may vary depending on the program and campus, but it typically lasts for a few days to a week."
+            ]
+          },
+          {
+            "tag": "Interviews for Admissions",
+            "patterns": [
+              "Are interviews required for admission to this university?",
+              "What programs or campuses require interviews for admission?"
+            ],
+            "responses":[
+                "Interviews may be a part of the admissions process for some programs or campuses, but they are not always required."
+            ]
+          },
+          {
+            "tag":"Admission_status",
+            "patterns":[
+                "How can I check my application status?"
+            ],
+            "responses":[
+                "You can typically check your application status by logging into the university's online portal or contacting the admissions office."
+            ]
+          },
+          {
+            "tag": "UniversityPrograms",
+            "patterns": [
+            "What programs does the university offer?",
+            "What degree programs are available?",
+            "Can you tell me about the university's programs?",
+            "What are the undergraduate programs offered?",
+            "What are the graduate programs offered?"
+            ],
+            "responses": [
+            "The university offers a variety of programs, including undergraduate, graduate, and professional degree programs. Some examples of undergraduate programs include business, Software engineering, DPT, health sciences, and the arts."
+            ]
+            },
+            {
+            "tag": "AcademicDepartments",
+            "patterns": [
+            "What are the different academic departments at this university?",
+            "Can you tell me about the departments at the university?",
+            "What departments are available at the university?"
+            ],
+            "responses": [
+            "The university has several academic departments, including the department of management sciences, the department of Engineering, department of health sciences, the department of mathematics, department of English."
+            ]
+            },
+            {
+            "tag": "MajorsAvailable",
+            "patterns": [
+            "What majors are available for students to study at this university?",
+            "Can you tell me about the majors offered at the university?",
+            "What undergraduate majors are available?",
+            "What graduate majors are available?",
+            "What majors are available for students to study at this university?"
+            ],
+            "responses": [
+            "The majors available for students to study at this university depend on the program they choose. Some of the most popular undergraduate majors include business, engineering, health sciences, education, and the arts. Graduate programs offer specialized fields of study within those broader areas."
+            ]
+            },
+            {
+                "tag": "Degrees offered",
+                "patterns": ["What degrees are offered by this university?"],
+                "responses": ["The university offers a variety of degrees, including bachelor's, master's, professional, and doctoral degrees."]
+            },
+            {
+                "tag": "Graduate programs",
+                "patterns": ["Can you tell me about the graduate programs available at this university?"],
+                "responses": ["The graduate programs available at this university vary by department. Some examples of graduate programs include BBA, CS/SE, medicine, health sciences, architecture, and others."]
+            },
+            {
+                "tag": "Research opportunities",
+                "patterns": ["What are the research opportunities available for students at this university?"],
+                "responses": ["There are numerous research opportunities available for students at this university, including opportunities to work with faculty members on research projects, participate in internships, and conduct independent research."]
+            },
+            {
+                "tag":"employment_programs",
+                "patterns":["What are the employment opportunities for graduates of a particular program?"],
+                "responses":["The employment opportunities for graduates of a particular program may vary depending on the program and the industry they are interested in. You can check the university's website or contact the career services office to find out more about the employment opportunities for graduates of a specific program. Additionally, you can research job postings and industry trends to get an idea of the types of jobs that may be available to graduates of a particular program."]
+            }
+    ]
+}
