@@ -3,4 +3,4 @@ streamlit
 tensorflow-cpu
 numpy
 jsonlib
-pickel
+pickle5
