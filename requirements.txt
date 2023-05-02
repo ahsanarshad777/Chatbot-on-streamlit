@@ -2,5 +2,5 @@ streamlit-chat
 streamlit
 tensorflow-cpu
 numpy
-json
+jsonlib
 pickel
