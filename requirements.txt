@@ -1,0 +1,6 @@
+streamlit-chat
+streamlit
+tensorflow-cpu
+numpy
+json
+pickel
