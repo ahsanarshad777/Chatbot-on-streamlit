@@ -1,6 +1,6 @@
 streamlit-chat
 streamlit
-tensorflow-cpu
+tensorflow-cpu 2.12.0
 numpy
 jsonlib
 pickle5
